@@ -1,9 +1,12 @@
 package com.douglasss.contasapagarbackend;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+@Service
 public class EmMemoriaContaAPagarRepository implements ContaAPagarRepository {
 
     private final List<ContaAPagar> contas;
